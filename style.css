@@ -96,3 +96,264 @@ nav{
     background-color: white;
     color: #2563EB;
 }
+/* Speakers Style */
+.speaker-box{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 18px;
+}
+.speakers{
+    padding:100px 0;
+}
+.speakers h2{
+    text-align:center;
+    font-size:42px;
+    font-weight: 700;
+    margin-bottom:50px;
+}
+.speaker-card{
+    background:white;
+    border:1px solid #eae6e6;
+    border-radius:10px;
+    width: 100%;
+    overflow:hidden;
+    padding: 20px;
+    box-shadow: 0 1px 8px (15,23,42,.05);
+}
+.speaker-card img{
+    width:100%;
+    display:block;
+    height: 300px;
+    object-fit: cover;
+}
+.category{
+    color:#2563EB;
+    font-size:12px;
+    font-weight:700;
+}
+.speaker-card h3{
+    font-size:25px;
+    font-weight:700;
+    margin: 8px 0;
+}
+.speaker-card p{
+    color:#585757;
+    font-size:16px;
+}
+.card-content{
+    padding:20px;
+}
+
+/* pricecard style */
+
+.pricing{
+    text-align: center;
+    padding: 100px 0;
+}
+.pricing h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.pricing-subtitle{
+    text-align: center; 
+    color: #575757;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.pricing-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: stretch;
+    gap: 18px
+}
+.pricing-card{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border: 1px solid #eae6e6;
+    border-radius: 10px;
+    padding:30px;
+    text-align:left;
+    
+}
+.plan-name{
+   color: #575757;
+   font-size: 12px;
+   font-weight: 700;
+}
+.pricing-card h3{
+    font-size:52px;
+    font-weight:700;
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.pricing-card p{
+    color: #575757;
+    font-size:14px;
+}
+.pricing-card hr{
+    border:none;
+    border-top:1px solid #c1c0c0;
+    margin:18px 0;
+}
+.features{
+    margin-bottom: 16px;
+}
+.features li::marker{
+    color: #2563EB;
+}
+
+.features li{
+    margin-bottom:20px;
+    color:#333333;
+}
+.pro{
+    background:#0D1B2A;
+    color:white;
+}
+.pro p{
+    color:white;
+}
+.pro .plan-name{
+    color:#2563EB;
+}
+.pro li{
+    color: #c8c8c8;
+}
+.pro hr{
+    border-top:1px solid rgb(107, 107, 107);
+}
+.btn-standard{
+    color: #2563EB;
+    border: 1px solid #2563EB;
+}
+.btn-standard:hover{
+    background: #2563EB;
+    color: white;
+}
+.btn-pro{
+    background-color: #2563EB;
+    color: #eae6e6;
+    border:none;
+}
+.btn-pro:hover{
+    background-color: white;
+    color: #2563EB;
+}
+.btn-team{
+    color: #0D1B2A;
+    border: 1px solid #0D1B2A;
+}
+.btn-team:hover{
+    background: #2563EB;
+    color: white;
+}
+.plan-btn{
+    width:100%;
+    margin-top:auto;
+    padding:18px;
+    border-radius:8px;
+    font-size:15px;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+ /* placeholder style */
+ .challenge{
+    padding: 100px 0;
+    background-color: #F8FAFC;
+    text-align: center;
+}
+.challenge h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #0F172A;
+    margin-bottom: 12px;
+}
+.challenge-subtitle{
+    font-size: 18px;
+    color: #2563EB;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.challenge-description{
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #64748B;
+    line-height: 1.8;
+    font-size: 16px;
+}
+.challenge-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.challenge-card{
+    background: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+    padding: 35px 25px;
+    transition: 0.3s;
+}
+
+.challenge-icon{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.challenge-card h3{
+    font-size: 24px;
+    color: #0F172A;
+    margin-bottom: 15px;
+}
+.challenge-card p{
+    color: #64748B;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+.challenge-btn{
+    width: 100%;
+    padding: 15px;
+    background: white;
+    border: 2px solid #2563EB;
+    border-radius: 8px;
+    color: #2563EB;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.challenge-btn:hover{
+    background: #2563EB;
+    color: white;
+}
+
+/* footer style */
+footer{
+    background-color:#0D1B2A;
+    background-size: cover;
+    background-position: center;
+    justify-content: space-between;
+    color: #b2b2b2;
+    padding: 18px 0;
+}
+.footer-top{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+.footer-logo img{
+    height:35px;
+}
+
+.social-links{
+    display:flex;
+    align-items: center;
+    gap:20px;
+}
+.social-links img{
+    width:30px;
+    height:28px;
+}
